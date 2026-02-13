@@ -17,7 +17,7 @@ class AppDescargador(ctk.CTk):
         self.label = ctk.CTkLabel(self, text="Pega el enlace de YouTube:", font=("Arial", 16))
         self.label.pack(pady=20)
 
-        self.url_entry = ctk.CTkEntry(self, width=400, placeholder_text="https://www.youtube.com/watch?v=...")
+        self.url_entry = ctk.CTkEntry(self, width=400, placeholder_text="Link", justify="center")
         self.url_entry.pack(pady=10)
 
         self.res_label = ctk.CTkLabel(self, text="Selecciona la resolución:")
